@@ -19,6 +19,6 @@ app.get("/users/id/:id", (req,res)=>{
     res.status(200).json(result);
 });
 
-app.listen(port, ()=>{
+app.listen(port, ()=>{  
     console.log("Server is running on "+port);
 })
